@@ -1,0 +1,59 @@
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(10, 10, 15, 0.95);
+    backdrop-filter: blur(20px);
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid var(--border);
+    gap: 1rem;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .hero-stats {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .flow {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .flow-step {
+    max-width: 100%;
+  }
+
+  .flow-connector {
+    transform: rotate(90deg);
+    padding: 0;
+  }
+
+  .tech-strip {
+    gap: 1.2rem;
+  }
+
+  .cta-inner {
+    padding: 3rem 1.5rem;
+  }
+}
+
+/* ===== TABLET ===== */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cards-grid.cols-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
