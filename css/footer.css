@@ -18,6 +18,10 @@ footer {
   font-size: 1.2rem;
 }
 
+.footer-brand .logo span {
+  -webkit-text-fill-color: var(--text-muted);
+}
+
 .footer-brand p {
   font-size: 0.82rem;
   color: var(--text-muted);
